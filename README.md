@@ -245,34 +245,6 @@ The Model Training phase is vital for building and optimizing a machine learning
 6. **Artifact Creation**:
    - After training, the best model is saved as an object (`model.pkl`) along with associated metrics, which are logged for future reference.
 
-## MLFlow & Dagshub
-
-In this project, MLFlow and Dagshub are utilized for effective tracking of experiments, model performance, and version control. These tools enhance the reproducibility and maintainability of the machine learning workflow.
-
-**Dagshub Remote Repository Link** : https://dagshub.com/vanshbansal986/Network-Security-ML
-
-### MLFlow
-
-MLFlow is an open-source platform designed for managing the machine learning lifecycle. It provides various components including:
-
-- **Experiment Tracking**: MLFlow allows tracking of model training runs, parameters, metrics, and artifacts. Each experiment is recorded, making it easy to compare model performance over time.
-- **Model Repository**: Models can be logged and later retrieved for deployment or further analysis. The built-in tracking server stores all experiment details in one place.
-
-### Key Features of MLFlow in this Project:
-- Logging of hyperparameters and metrics during model training.
-- Storage of trained model files for easy retrieval.
-- Visualization tools for comparing different runs and determining the best-performing model.
-
-### Dagshub
-
-Dagshub serves as a remote repository tailored for data science and machine learning projects. It integrates well with Git and supports versioning for datasets, code, and model files.
-
-### Key Features of Dagshub in this Project:
-- **Version Control**: Facilitates tracking changes in datasets and code, allowing team collaboration and versioning for reproducibility.
-- **Experiment Management**: Dagshub provides a platform for storing and comparing different experiments, complements MLFlow’s capabilities by preserving all components of the workflow in a single location.
-
-### Integration
-In this project, both MLFlow and Dagshub are configured to work together, ensuring that every aspect of the training and evaluation process is logged and easily accessible. This integration enhances project transparency and allows for effective collaboration among team members.
 
 
 
