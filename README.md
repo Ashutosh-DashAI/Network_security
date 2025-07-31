@@ -133,7 +133,6 @@ Here is a high-level view of the project structure:
 
 The Data Ingestion phase is crucial for setting up the initial dataset required for the Machine Learning workflow. This step ingests data from a MongoDB database and structures it for further processing. Below is a breakdown of the Data Ingestion process:
 
-![Data Ingestion](https://github.com/vanshbansal986/Network-Security-ML/blob/main/images2/data_ingestion.png)
 
 #### Key Steps:
 
@@ -163,7 +162,6 @@ This structured approach ensures that the data flow into the pipeline is efficie
 
 The Data Validation phase ensures that the ingested data meets the necessary quality standards before proceeding to the next steps in the Machine Learning pipeline. The following diagram outlines the key aspects of this process:
 
-![Data Validation](https://github.com/vanshbansal986/Network-Security-ML/blob/main/images2/data_validation.png)
 
 ### Overview of the Process:
 
@@ -190,7 +188,6 @@ The Data Validation phase ensures that the ingested data meets the necessary qua
 
 The Data Transformation phase prepares the validated data for modeling by handling missing values and scaling features. The following diagram illustrates the key steps in this process:
 
-![Data Transformation](https://github.com/vanshbansal986/Network-Security-ML/blob/main/images2/data_transformation.png)
 
 ### Overview of the Process:
 
@@ -216,8 +213,6 @@ The Data Transformation phase prepares the validated data for modeling by handli
 ## Model Training
 
 The Model Training phase is vital for building and optimizing a machine learning model based on the transformed data. The following diagram illustrates the core steps involved in this process:
-
-![Model Training](https://github.com/vanshbansal986/Network-Security-ML/blob/main/images2/model_trainer.png)
 
 ### Overview of the Process:
 
